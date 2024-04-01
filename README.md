@@ -21,6 +21,10 @@ move -0.4 0 0.25s
 wait 1s
 ```
 
+Resulting in
+
+![](output.mp4)
+
 The first 4 lines are for the qubit IDs and initial positions, then you can specify movements of groups of atoms.
 
 
