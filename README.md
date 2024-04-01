@@ -3,6 +3,8 @@ NeutralAtomVisualizer
 This program takes in a .txt file specifying the movement sequence at outputs an .mp4 video of the sequence.
 
 Example:
+
+```
 qubits
 1 2 3 4 5 6 7 8 9 10 11 12
 initial positions
@@ -17,6 +19,7 @@ move 0 -2 1s
 move -0.4 0 0.25s
 1 2 3 4 5 6
 wait 1s
+```
 
 The first 4 lines are for the qubit IDs and initial positions, then you can specify movements of groups of atoms.
 
